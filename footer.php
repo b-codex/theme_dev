@@ -1,4 +1,4 @@
-<h3>Developer is Eshtaol Girma @2021</h3>
+<h3>Developed by NoobDevTeam @2021</h3>
 <?php wp_footer();?>
 
 
