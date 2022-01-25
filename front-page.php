@@ -1,49 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Bisrat Fekede - Programmer</title>
-  <meta name="description"
-    content="This Is The Personal Website Of One Bisrat Fekede - Programmer, Developer & Gamer. Enjoy!!! Styles Used In This Website Are Licensed To Me.">
-  <meta name="author" content="Author - Bisrat Fekede">
-
-  <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
-
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-
-  <?php 
-  wp_head();
-  ?>
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Site Name</a><button
-        class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-          class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resumĕ</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+<?php
+get_header();
+?>
   <!-- Masthead-->
   <header class="masthead">
     <div class="container h-100">
@@ -437,29 +395,13 @@
     </div>
   </section>
 
-  <!-- Footer-->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright © 2021 Bisrat Fekede. All Rights Reserved.</div>
-    </div>
-  </footer>
+ 
 
   <?php
-  wp_footer();
+  get_footer();
+  
   ?>
-  <!-- Bootstrap core JS-->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <!-- Third party plugin JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="https://kit.fontawesome.com/24cd095fb2.js" crossorigin="anonymous"></script>
-
-  <!-- Core theme JS-->
-  <script src="js/script.js"></script>
+ 
 </body>
 
 </html>
