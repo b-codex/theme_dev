@@ -2,17 +2,13 @@
 // add menu support
 add_theme_support('menus');
 
-// function for the featured image option
-function noobDev_features_image(){
-    // add features image support
-    add_theme_support('post-thumbnails');
-}
-// add hook for the featured image function
-add_action('after_setup_theme','noobDev_features_image');
-
 // function for dynamic title tag support
 function noobDev_theme_support(){
 
+    // add custom logo
+    add_theme_support('custom-logo');
+    // add features image support
+    add_theme_support('post-thumbnails');
     // add dynamic title tag support
     add_theme_support('title-tag');
 }
