@@ -2,22 +2,7 @@
 <?php
 get_header();
 ?>
-  <!-- Masthead-->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Site Name</h1>
-          <hr class="divider" />
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white font-weight-light mb-5">| &nbsp; Programmer &nbsp; | &nbsp; Gamer &nbsp; |</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </header>
-
+  
   <!-- About section-->
   <section class="page-section" id="about">
     <div class="container">
@@ -90,18 +75,6 @@ get_header();
           </div>
 
 
-          <!-- <div class="skilll">
-                  <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
-                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                    <text class="percentage" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
-                  </svg>
-                  <p>
-                    Java
-                  </p>
-
-                </div> -->
-
 
           <div class="skilll">
             <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
@@ -143,18 +116,6 @@ get_header();
             </p>
 
           </div>
-
-          <!-- <div class="skilll">
-            <svg class="radial-progress" data-percentage="65" viewBox="0 0 80 80">
-              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-              <text class="percentage" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">65%</text>
-            </svg>
-            <p>
-              PHP
-            </p>
-
-          </div> -->
 
 
           <div class="skilll">
@@ -244,30 +205,13 @@ get_header();
             </li>
           </ul>
 
-          <!-- <p class="text-center"><a class="btn-xl" href="assets/files/resume.pdf"><i class="fa fa-download" aria-hidden="true"></i> Download Resumĕ</a></p> -->
-          <!-- <a class="btn btn-light btn-xl" href="assets/files/resume.pdf"><i class="fa fa-download" aria-hidden="true"></i> &nbsp; Download Resumĕ</a> -->
-          <br><br>
-          <!-- <a class="btn btn-light btn-xl" href="blog.html" target="_blank">See My Blog</a>  -->
+    
           <br><br>
         </div>
       </div>
 
 
-      <!-- <div class="images">
-            <div class="image">
-              <img src="assets/img/html.jpg" alt="" srcset="">
-              <img src="assets/img/css.jpg" alt="" srcset="">
-            </div>
-            <div class="image">
-              <img src="assets/img/java.jpg" alt="" srcset="">
-              <img src="assets/img/sql.jpg" alt="" srcset="">
-            </div>
-          </div> -->
-
-
     </div>
-    <br><br><br><br>
-    <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">See My Portfolio</a> -->
     <br><br>
 
 
@@ -346,15 +290,6 @@ get_header();
 
   <hr class="border-bottom" />
 
-
-  <!-- Call to action section-->
-  <!-- <section class="page-section bg-dark text-white">
-        <div class="container text-center">
-            <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-            <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-        </div>
-    </section> -->
-
   <!-- Contact section-->
   <section class="page-section" id="contact">
     <div class="container">
@@ -368,7 +303,7 @@ get_header();
           </div>
           <div class="col-md-4"> <i class="fas fa-envelope fa-2x"></i>
             <p>
-              bisratfx098@gmail.com
+             example@gmail.com
             </p>
           </div>
           <div class="col-md-4"> <i class="fas fa-phone fa-2x"></i>

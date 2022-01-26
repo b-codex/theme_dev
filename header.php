@@ -5,10 +5,9 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Bisrat Fekede - Programmer</title>
   <meta name="description"
-    content="This Is The Personal Website Of One Bisrat Fekede - Programmer, Developer & Gamer. Enjoy!!! Styles Used In This Website Are Licensed To Me.">
-  <meta name="author" content="Author - Bisrat Fekede">
+    content="This Is The Personal Website Of One Theme_dev - Programmer, Developer & Gamer. Enjoy!!! Styles Used In This Website Are Licensed To Me.">
+  <meta name="author" content="Author - Theme_dev">
 
   <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
 
@@ -37,6 +36,21 @@
       </div>
     </div>
   </nav>
+  <!-- Masthead-->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">Site Name</h1>
+          <hr class="divider" />
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white font-weight-light mb-5">| &nbsp; Programmer &nbsp; | &nbsp; Gamer &nbsp; |</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
 
 
