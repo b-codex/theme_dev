@@ -626,3 +626,65 @@ svg.radial-progresscircle {
     flex-direction: column;
   }
 }
+/* Navigation Menus */
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar::before,
+.navbar ul::after {
+  content: "";
+  display: table;
+}
+.navbar ul::after {
+  clear: both;
+}
+.navbar ul {
+  *zoom: 1;
+}
+.navbar ul li {
+  list-style: none;
+  float: right;
+}
+
+/* site Header Menu */
+.site-header nav ul li {
+  margin-right: 5px;
+}
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+  display: block;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+.site-header nav ul li a:hover {
+  color: #f4623a;
+}
+
+
+
+/* Footer Menu */
+
+.site-footer nav ul li {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+}
+.site-footer::before,
+.site-footer ul::after {
+  content: "";
+  display: table;
+}
+.site-footer ul::after {
+  clear: both;
+}
+.site-footer ul {
+  *zoom: 1;
+}
+.site-footer ul li {
+  list-style: none;
+  float: right;
+}
