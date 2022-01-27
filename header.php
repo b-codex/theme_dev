@@ -42,7 +42,7 @@
               array(
                 'container' => '',
                 'theme_location' => 'primary',
-                'item_wrap' => '<ul id="" class="navbar-nav ml-auto">%3$s</ul>'
+                'items_wrap' => '<ul id="menu" class=" menu2 ml-auto">%3$s</ul>'
               )
             );
           ?>

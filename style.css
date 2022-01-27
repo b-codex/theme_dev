@@ -219,16 +219,6 @@ header.masthead h1 {
   flex-grow: 1;
 }
 
-/* .skilll{
-  margin: 0 1rem;
-} */
-
-#skills > div > div > div > div > p {
-  color: #629ca7;
-  font-weight: 500;
-  font-size: 17px;
-}
-
 svg.radial-progress {
   height: auto;
   max-width: 200px;
@@ -609,13 +599,17 @@ svg.radial-progresscircle {
 @media (max-width: 768px) {
   .nav_right {
     flex-direction: column;
-    float: right;
+    float: left;
   }
 }
 /* Navigation Menus */
 .navbar-nav ul {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
+}
+.nav_right ul {
+  margin: 10;
+  padding: 10;
 }
 .navbar::before,
 .navbar ul::after {
@@ -628,7 +622,6 @@ svg.radial-progresscircle {
 }
 .navbar ul li {
   list-style: none;
-  float: right;
 }
 .nav_right {
   float: right;
