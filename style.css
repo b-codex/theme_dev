@@ -643,27 +643,28 @@ svg.radial-progresscircle {
 
 /* Footer Menu */
 
-.site-footer nav ul li {
+.footer-widget-area nav ul li {
   margin-right: 10px;
   padding-right: 10px;
 }
-.site-footer ul {
+.footer-widget-area ul {
   margin: 0;
   padding: 0;
 }
-.site-footer::before,
-.site-footer ul::after {
+.footer-widget-area::before,
+.footer-widget-area ul::after {
   content: "";
-  display: table;
+  display: flex;
 }
-.site-footer ul::after {
+.footer-widget-area ul::after {
   clear: both;
 }
-.site-footer ul {
+.footer-widget-area ul {
   *zoom: 1;
 }
-.site-footer ul li {
+.footer-widget-area ul li {
   list-style: none;
+
   float: right;
 }
 

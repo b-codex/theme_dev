@@ -22,7 +22,6 @@ add_theme_support('widgets');
 // add_action('widget_init', 'noobDev_add_sidebar');
 
 // add hook for the widget to register it ti thr customization 
-// add_action('customize_register', 'noobDev_add_sidebar');
 
 // adding widget sidebar to the customize option
 
@@ -36,7 +35,7 @@ function noobDev_widget_sidebar() {
 		'after_widget'  => '</div></div>',
 	);
 
-    // sidebar #2.
+    // sidebar #1.
 	register_sidebar(
 		array_merge(
 			$shared_args,
@@ -48,7 +47,7 @@ function noobDev_widget_sidebar() {
 		)
 	);
 
-	// Footer #1.
+	// Footer sidebar #2.
 	register_sidebar(
 		array_merge(
 			$shared_args,
@@ -60,7 +59,7 @@ function noobDev_widget_sidebar() {
 		)
 	);
 
-	// Footer #2.
+	// Footer sidebar #3.
 	register_sidebar(
 		array_merge(
 			$shared_args,
@@ -72,9 +71,25 @@ function noobDev_widget_sidebar() {
 		)
 	);
 
+    
+	// Footer sidebar #4.
+	register_sidebar(
+		array_merge(
+			$shared_args,
+			array(
+				'name'        => __( 'Footer #3', 'noobDev' ),
+				'id'          => 'sidebar-4',
+				'description' => __( 'Widgets in this area will be displayed in the Third column in the footer.', 'noobDev' ),
+			)
+		)
+	);
+
 }
 
+// add hook for the above function to register sidebars
 add_action( 'widgets_init', 'noobDev_widget_sidebar' );
+// registered the widget to customize option 
+add_action('customize_register', 'noobDev_widget_sidebar');
 
 
 // customize Appearance options
