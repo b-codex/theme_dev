@@ -29,7 +29,7 @@
 
         }
         ?>
-        <!-- <img class="mb-3 mx-auto logo" src="<?php echo $logo[0]; ?>" alt="logo"> -->
+        <img class="mb-3 mx-auto logo" src="<?php echo $logo[0]; ?>" alt="logo">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><?php bloginfo('name');?></a>
         <button
         class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
