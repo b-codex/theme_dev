@@ -1,6 +1,6 @@
 <?php
 // add menu support
-add_theme_support('menus');
+
 
 // function for dynamic title tag support
 function noobDev_theme_support(){
