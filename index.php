@@ -34,12 +34,7 @@
         </div>
         <?php
 
-// the_author();
-        // the_category();
-        // the_excerpt();
     }
-//get the footer
-
 ?>
 <?php
 get_footer();
