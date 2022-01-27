@@ -8,7 +8,7 @@
 //the content
     while (have_posts()) {
         the_post();?>
-        <div class='col-md-3 mx-auto my-4 d-flex flex-column justify-content-center align-items-start border-bottom' style="flex: 6";>
+        <div class='col-md-3 mx-auto my-4 d-flex flex-column justify-content-center align-items-start border-bottom' style="top: 25vh; bottom:5vh;";>
             <div>
                 <p style="color:#333333; text-transform: capitalize; font-family: 'Barlow Condensed', Montserrat; font-size:13px; font-weight:400; line-height:35px; "><a href="#" style=" text-decoration: none; color:#CEAC92; list-style:none;" >BLOG</a> &nbsp; /&nbsp; <span style="text-transform: uppercase;"><?php echo get_the_date( get_option('date_format') ); ?></span> </li>
                 </p>
@@ -35,10 +35,12 @@
         <?php
 
     }
+
 ?>
+
+
+
 <?php
 get_footer();
 ?>
 <?php get_sidebar();?>
-
-

@@ -4,7 +4,7 @@
 
 <!-- footer -->
 
-<footer class="site-footer footIcon text-center text-white" >
+<footer class="site-footer footIcon text-center text-white mt-5" style=" margin-top: 25vh !important;">
   <!-- Grid container -->
   <div class="container footIcon pt-4">
     <!-- Section: Social media -->

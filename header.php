@@ -16,9 +16,9 @@
   ?>
 </head>
 
-<body id="page-top">
+<body id="page-top"<?php body_class( $class ); ?>>
 <?php wp_body_open(); ?>
-<?php body_class( $class ); ?>
+
   <!-- Navigation-->
   <header class="site-header bg-dark ">
     <nav class="navbar headIcon navbar-expand-lg fixed-top py-3" id="mainNav">

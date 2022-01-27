@@ -22,7 +22,21 @@ while (have_posts()) {
             <?php the_content();?>
         </div>
 
-        
+        <div class="d-flex justify-content-around" >
+
+            <div class="mx-auto">
+
+            <a href="">
+            <button type="button" class="btn btn-custom"><?php previous_post_link();?></button>
+            </a>
+            </div> 
+
+            <div class="mx-auto">
+            <a href="">
+            <button type="button" class="btn btn-custom" ><?php next_post_link();?></button>
+            </a>
+            </div>
+        </div>
         <?php
 
 }
