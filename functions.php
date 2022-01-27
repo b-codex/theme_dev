@@ -3,33 +3,33 @@
 add_theme_support('widgets');
 
 // add widget
-function noobDev_add_sidebar(){
+function noobDev_add_sidebar()
+{
     register_sidebar(
         array(
             'name' => __('Primary sidebar', 'NoobDev'),
-            'id' => 'Primary-sidebar', 
-            'before_widget'=> '<div>',
-            'after_widget'=> '<div>',
-            'before_title'=> '<h2 class= "widget-title">',
-            'after_title'=> '</h2>',
+            'id' => 'Primary-sidebar',
+            'before_widget' => '<div>',
+            'after_widget' => '<div>',
+            'before_title' => '<h2 class= "widget-title">',
+            'after_title' => '</h2>',
 
         )
-        );
-        register_sidebar(
-            array(
-                'name' => __('Blog sidebar', 'NoobDev'),
-                'id' => 'Blog-sidebar', 
-                'before_widget'=> '<div>',
-                'after_widget'=> '<div>',
-                'before_title'=> '<h2 class= "widget-title">',
-                'after_title'=> '</h2>',
-    
-            )
-            );
+    );
+    register_sidebar(
+        array(
+            'name' => __('Blog sidebar', 'NoobDev'),
+            'id' => 'Blog-sidebar',
+            'before_widget' => '<div>',
+            'after_widget' => '<div>',
+            'before_title' => '<h2 class= "widget-title">',
+            'after_title' => '</h2>',
+
+        )
+    );
 }
 // add action
 add_action('widget_init', 'noobDev_add_sidebar');
-
 
 // function for dynamic title tag support
 function noobDev_theme_support()
@@ -63,7 +63,7 @@ function noobDev_register_styles()
     wp_enqueue_style('noobdev-bootstrap', get_template_directory_uri() . "/assets/css/bootstrap.min.css", array(), "4.5.2");
     wp_enqueue_style('noobdev-popup', get_template_directory_uri() . "/assets/css/magnific-popup.min.css", array(), "1.1.0");
     wp_enqueue_style('noobdev-font', "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic", array(), "1.0");
-    
+
 }
 // hook  action
 add_action('wp_enqueue_scripts', 'noobDev_register_styles');
@@ -84,3 +84,9 @@ function noobDev_register_scripts()
 }
 // hook action
 add_action('wp_enqueue_scripts', 'noobDev_register_scripts');
+
+function wpdocs_custom_excerpt_length($length)
+{
+    return 15;
+}
+add_filter('excerpt_length', 'wpdocs_custom_excerpt_length', 999);

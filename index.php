@@ -4,26 +4,46 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Karla:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <body>
-        <div class='col-md-3 mx-auto d-flex flex-column justify-content-center align-items-start'>
+<?php
+//the content
+    while (have_posts()) {
+        the_post();?>
+        <div class='col-md-3 mx-auto my-4 d-flex flex-column justify-content-center align-items-start border-bottom' style="flex: 6";>
             <div>
-                <p style="color:#333333; text-transform: capitalize; font-family: 'Barlow Condensed', Montserrat; font-size:13px; font-weight:400; line-height:35px;"><a href="<?php the_permalink()?>" style=" text-decoration: none; color:#CEAC92;" >BLOG</a> &nbsp; /&nbsp; DECEMBER 29, 2021</p>
-                
+                <p style="color:#333333; text-transform: capitalize; font-family: 'Barlow Condensed', Montserrat; font-size:13px; font-weight:400; line-height:35px; "><a href="#" style=" text-decoration: none; color:#CEAC92; list-style:none;" >BLOG</a> &nbsp; /&nbsp; <span style="text-transform: uppercase;"><?php echo get_the_date( get_option('date_format') ); ?></span> </li>
+                </p>
+
                 </div>
-            <div class="mt-1 mb-3">
+            <div class="my-1">
                 <h2 class="has-text-color text-left" style="color:#333333; text-transform: capitalize; font-family: 'Barlow Condensed', Montserrat; font-size:26px; font-weight:400; line-height:35px;"><a href="<?php the_permalink()?>" style=" text-decoration: none; color:#333333;"><?php the_title();?> </a></h2>
 
             </div>
             <div>
-                <p style="text-transform: capitalize; font-family: 'Karla', Montserrat; font-size:15px; font-weight:400; line-height:27px; color: #595959; text-decoration: none;">Magazines & BLogs Are you looking for more resources? Perhaps technical ones? Let’s say you…
+                <p style="text-transform: capitalize; font-family: 'Karla', Montserrat; font-size:15px; font-weight:400; line-height:27px; color: #595959; text-decoration: none;">
+                <?php the_excerpt();?>
 
                 </p>
 
             </div>
-            <div>
+            <div class="mb-4">
 
-            <button type="button" class="btn text-white" style ="background-color: #CEAC92; text-transform: uppercase; font-family: 'Barlow Condensed', Montserrat; font-size:13px; letter-spacing: 0.2em; font-weight:400; line-height:25px; border-radius:0 !important;">Read More</button>
+            <a href="<?php the_permalink()?>" style=" text-decoration: none; color:white;">
+            <button type="button" class="btn btn-custom">Read More</button>
+            </a>
             </div>
         </div>
-    </body>
-</html>
+        <?php
+
+// the_author();
+        // the_category();
+        // the_excerpt();
+    }
+//get the footer
+
+?>
+<?php
+get_footer();
+?>
+<?php get_sidebar();?>
+
+
