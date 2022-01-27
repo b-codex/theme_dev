@@ -13,10 +13,11 @@ Text Domain: noobdevtheme
 
  */
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Karla:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600&display=swap");
 
 body,
 html {
-  font-family: "Philosopher", cursive !important;
+  font-family: "Karla", cursive !important;
   /* font-weight: bolder; */
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -217,16 +218,6 @@ header.masthead h1 {
   flex-grow: wrap;
   flex-basis: 0;
   flex-grow: 1;
-}
-
-/* .skilll{
-  margin: 0 1rem;
-} */
-
-#skills > div > div > div > div > p {
-  color: #629ca7;
-  font-weight: 500;
-  font-size: 17px;
 }
 
 svg.radial-progress {
@@ -609,13 +600,17 @@ svg.radial-progresscircle {
 @media (max-width: 768px) {
   .nav_right {
     flex-direction: column;
-    float: right;
+    float: left;
   }
 }
 /* Navigation Menus */
 .navbar-nav ul {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
+}
+.nav_right ul {
+  margin: 10;
+  padding: 10;
 }
 .navbar::before,
 .navbar ul::after {
@@ -628,7 +623,6 @@ svg.radial-progresscircle {
 }
 .navbar ul li {
   list-style: none;
-  float: right;
 }
 .nav_right {
   float: right;
@@ -672,3 +666,20 @@ svg.radial-progresscircle {
   list-style: none;
   float: right;
 }
+
+/*button css*/
+.btn-custom{
+background-color: #ceac92 !important;
+text-transform: uppercase;
+font-family: "Barlow Condensed", Montserrat;
+font-size: 13px;
+letter-spacing: 0.2em;
+font-weight: 400;
+line-height: 25px;
+border-radius: 0 !important;
+color: white !important;
+}
+.btn-custom:hover{
+  transform: scale(1.1);
+}
+/*button css*/

@@ -20,6 +20,11 @@ get_header();
             }
             
           ?>
+          <?php if ( is_active_sidebar( 'Blog sidebar' ) ) : ?>
+	<div id="blog-sidebar" class="blog-sidebar widget-area" role="complementary">
+		<?php dynamic_sidebar( 'Blog sidebar' ); ?>
+	</div><!-- #blog-sidebar -->
+<?php endif; ?>
          
 
         </div>

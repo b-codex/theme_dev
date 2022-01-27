@@ -20,8 +20,8 @@
 <?php wp_body_open(); ?>
 <?php body_class( $class ); ?>
   <!-- Navigation-->
-  <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+  <header class="site-header ">
+    <nav class="navbar headIcon navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
       <div class="container">
         <?php 
          if(function_exists('the_custom_logo')){
@@ -43,7 +43,7 @@
               array(
                 'container' => '',
                 'theme_location' => 'primary',
-                'item_wrap' => '<ul id="" class="navbar-nav ml-auto">%3$s</ul>'
+                'items_wrap' => '<ul id="menu" class=" menu2 ml-auto">%3$s</ul>'
               )
             );
           ?>
