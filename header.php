@@ -11,14 +11,13 @@
 
   <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
 
+</head>
+
   <?php 
   wp_head();
   ?>
-</head>
-
 <body id="page-top">
-<?php wp_body_open(); ?>
-<?php body_class( $class ); ?>
+<?php wp_body_open()?>
   <!-- Navigation-->
   <header class="site-header ">
     <nav class="navbar headIcon navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -43,7 +42,7 @@
               array(
                 'container' => '',
                 'theme_location' => 'primary',
-                'items_wrap' => '<ul id="menu" class=" menu2 ml-auto">%3$s</ul>'
+                'items_wrap' => '<ul id="menu" class=" menu2 ml-auto d-flex">%3$s</ul>'
               )
             );
           ?>

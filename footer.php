@@ -6,9 +6,24 @@
 
 <footer class="site-footer footIcon text-center text-white" >
   <!-- Grid container -->
-  <div class="container footIcon pt-4">
+  <div class="footer-widget container footIcon pt-4">
     <!-- Section: Social media -->
     <section class="mb-4 ">
+
+    <!-- checking condition to display footer sidebar -->
+    <?php if(is_active_sidebar('sidebar-2')) :?>
+    <div class="footer-widget-area">
+      <?php dynamic_sidebar('sidebar-2');?>
+    </div>
+    <?php endif;?>
+
+    <?php if(is_active_sidebar('sidebar-3')) :?>
+    <div class="footer-widget-area">
+      <?php dynamic_sidebar('sidebar-3');?>
+    </div>
+    <?php endif;?>
+
+    
       <!-- Facebook -->
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"

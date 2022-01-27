@@ -1,7 +1,8 @@
+<?php wp_head()?>
 <?php  
 //get the header 
 get_header(); 
- 
+
 //the content 
 if(have_posts()){ 
     while (have_posts()){ 
@@ -18,12 +19,4 @@ if(have_posts()){
 get_footer(); 
 ?> 
 <?php get_sidebar(); ?>
-
-
-
-
- //get sidebar
- get_sidebar();
-//get the footer
-get_footer();
-?>
+<?php wp_footer()?>

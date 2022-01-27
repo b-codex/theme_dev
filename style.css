@@ -615,7 +615,7 @@ svg.radial-progresscircle {
 .navbar::before,
 .navbar ul::after {
   content: "";
-  display: block;
+  display: flex;
 }
 
 .navbar ul {
@@ -668,18 +668,36 @@ svg.radial-progresscircle {
 }
 
 /*button css*/
-.btn-custom{
-background-color: #ceac92 !important;
-text-transform: uppercase;
-font-family: "Barlow Condensed", Montserrat;
-font-size: 13px;
-letter-spacing: 0.2em;
-font-weight: 400;
-line-height: 25px;
-border-radius: 0 !important;
-color: white !important;
+.btn-custom {
+  background-color: #ceac92;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", Montserrat;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  line-height: 25px;
+  border-radius: 0 !important;
+  color: white !important;
 }
-.btn-custom:hover{
+.btn-custom:hover {
   transform: scale(1.1);
 }
 /*button css*/
+
+/* main-column for the blog content */
+.main-column {
+  width: 66%;
+  float: left;
+}
+.secondary-column {
+  width: 30%;
+  float: right;
+}
+
+/* Footer Widget Area */
+.footer-widget-area {
+  width: 25%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
