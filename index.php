@@ -52,5 +52,3 @@ get_footer();
 ?>
 
 
-<?php wp_footer()?>
-

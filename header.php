@@ -54,7 +54,7 @@
       </div>
     </nav>
   </header>
-
+  
   <!-- Masthead-->
   <!-- <header class="masthead">
     <div class="container h-100">
@@ -66,8 +66,9 @@
       </div>
     </div>
   </header> -->
-
+  
   <!--Dev Note: removed the gigantic title from the top of the page-->
+  
   
   
 

@@ -48,7 +48,7 @@ while (have_posts()) {
 <?php
 get_footer();
 ?>
-<?php get_sidebar();?>
+
 
 
 
