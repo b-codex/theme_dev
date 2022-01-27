@@ -19,8 +19,8 @@
 <body id="page-top">
 
   <!-- Navigation-->
-  <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+  <header class="site-header ">
+    <nav class="navbar headIcon navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
       <div class="container">
         <?php 
          if(function_exists('the_custom_logo')){
