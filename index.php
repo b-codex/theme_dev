@@ -41,22 +41,19 @@
             <?php
     
     // the_author();
-            // the_category();
-            // the_excerpt();
-        }
-    //get the footer
-    
-    ?>
+    // the_category();
+    // the_excerpt();
+}
+//get the footer
+
+?>
     </div>
     <?php get_sidebar();?>
 </div>
 
-    
-?>
 <?php
 get_footer();
 ?>
-<?php get_sidebar();?>
+<?php wp_footer();?>
 
-<?php wp_footer()?>
 

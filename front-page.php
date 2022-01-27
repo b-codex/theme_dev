@@ -26,12 +26,14 @@ get_header();
 		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</div><!-- #blog-sidebar -->
 <?php endif; ?>
+          
          
 
         </div>
       </div>
     </div>
   </section>
+<?php wp_footer();?>
 
 
 
