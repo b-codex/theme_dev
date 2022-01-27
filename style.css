@@ -594,7 +594,7 @@ svg.radial-progresscircle {
 .navbar::before,
 .navbar ul::after {
   content: "";
-  display: block;
+  display: flex;
 }
 
 .navbar ul {
@@ -622,58 +622,84 @@ svg.radial-progresscircle {
 
 /* Footer Menu */
 
-.site-footer nav ul li {
+.footer-widget-area nav ul li {
   margin-right: 10px;
   padding-right: 10px;
 }
-.site-footer ul {
+.footer-widget-area ul {
   margin: 0;
   padding: 0;
 }
-.site-footer::before,
-.site-footer ul::after {
+.footer-widget-area::before,
+.footer-widget-area ul::after {
   content: "";
-  display: table;
+  display: flex;
 }
-.site-footer ul::after {
+.footer-widget-area ul::after {
   clear: both;
 }
-.site-footer ul {
+.footer-widget-area ul {
   *zoom: 1;
 }
-.site-footer ul li {
+.footer-widget-area ul li {
   list-style: none;
+
   float: right;
 }
 
-/*button css*/
-.btn-custom{
-background-color: #ceac92 !important;
-text-transform: uppercase;
-font-family: "Barlow Condensed", Montserrat;
-font-size: 13px;
-letter-spacing: 0.2em;
-font-weight: 400;
-line-height: 25px;
-border-radius: 0 !important;
-color: white !important;
-}
-.btn-custom:hover{
-  transform: scale(1.02);
-  transition: .35s ease-out;
-}
-/*button css*/
-
 /* removed text decoration and color from anchor tags*/
-a{
+a  {
   text-decoration: none !important;
-  color: black !important;
+  color: #157575 !important;
   
 }
 /* removed text decoration and color from anchor tags*/
 
-.blog-title{
-  font-family: 'Red Hat Display', Montserrat;
+
+/*button css*/
+.btn-custom {
+  background-color: #ceac92 !important;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", Montserrat;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  line-height: 25px;
+  border-radius: 0 !important;
+  color: white !important;
+}
+.btn-custom:hover {
+  transform: scale(1.02);
+  transition: 0.35s ease-in-out;
+}
+/*button css*/
+
+/* main-column for the blog content */
+.main-column {
+  width: 66%;
+  float: left;
+}
+.secondary-column {
+  width: 30%;
+  float: right;
+}
+
+/* Footer Widget Area */
+.footer-widget-area {
+  width: 25%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.btn-custom:hover {
+  transform: scale(1.02);
+  transition: 0.35s ease-out;
+}
+/*button css*/
+
+.blog-title {
+  font-family: "Red Hat Display", Montserrat;
   text-transform: uppercase;
   font-size: 69px;
   line-height: 69;
@@ -681,16 +707,17 @@ a{
   font-weight: 500;
 }
 
-.nav-bar-custom, .nav-bar-custom  a{
+.nav-bar-custom,
+.nav-bar-custom a {
   font-style: 18px;
   font-weight: 400;
   /* line-height: 50; */
-  color: #CEAC92 !important;
+  color: #ceac92 !important;
   font-family: "Barlow Condensed", sans-serif;
   text-decoration: none !important;
   letter-spacing: 0.18rem;
   text-transform: uppercase;
-  background-color: #F7F2EE !important;
+  background-color: #f7f2ee !important;
   justify-content: center !important;
   align-items: center !important;
 }

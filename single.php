@@ -22,21 +22,25 @@ while (have_posts()) {
             <?php the_content();?>
         </div>
 
-        <div class="d-flex justify-content-around" >
+        <div class="d-flex justify-content-around mt-5" >
 
             <div class="mx-auto">
 
-            <a href="">
-            <button type="button" class="btn btn-custom"><?php previous_post_link();?></button>
-            </a>
-            </div> 
-
-            <div class="mx-auto">
-            <a href="">
-            <button type="button" class="btn btn-custom" ><?php next_post_link();?></button>
-            </a>
+               <a href="" style="color: white !important;" class="btn-custom">
+               <button type="button" class="btn btn-custom" style="color:white !important; text-decoration:none !important;"><?php previous_post_link();?></button>
+               </a>
             </div>
+            <div class="mx-auto">
+
+               <a href="" style="color: white !important;" class="btn-custom">
+               <button type="button" class="btn btn-custom" style="color:white !important; text-decoration:none !important;"><?php next_post_link();?></button>
+               </a>
+            </div>
+
+           
+
         </div>
+
         <?php
 
 }
@@ -45,5 +49,6 @@ while (have_posts()) {
 get_footer();
 ?>
 <?php get_sidebar();?>
+
 
 

@@ -11,6 +11,8 @@
 
   <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
 
+</head>
+
   <?php 
   wp_head();
   ?>
