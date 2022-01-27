@@ -17,7 +17,8 @@
 </head>
 
 <body id="page-top">
-
+<?php wp_body_open(); ?>
+<?php body_class( $class ); ?>
   <!-- Navigation-->
   <header class="site-header">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
