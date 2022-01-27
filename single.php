@@ -9,7 +9,7 @@
 //the content
 while (have_posts()) {
     the_post();?>
-        <div class='col-md-8 mx-auto mt-4 d-flex flex-column justify-content-start align-items-start' style="flex: 6;">
+        <div class='col-md-8 mx-auto  d-flex flex-column justify-content-start align-items-start' style="flex: 6; margin-top: 20vh;">
             <div>
                 <p style="color:#333333; text-transform: capitalize; font-family: 'Barlow Condensed', Montserrat; font-size:16px; font-weight:400; line-height:35px; "><a href="#" style=" text-decoration: none; color:#CEAC92; list-style:none;" >BLOG</a> &nbsp; /&nbsp; <span style="text-transform: uppercase;"><?php echo get_the_date(get_option('date_format')); ?></span> </li>
                 </p>
@@ -33,9 +33,3 @@ get_footer();
 <?php get_sidebar();?>
 
 
-
- //get sidebar
- get_sidebar();
-//get the footer
-get_footer();
-?>

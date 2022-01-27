@@ -694,3 +694,16 @@ color: white !important;
   font-weight: 500;
 }
 
+.nav-bar-custom, .nav-bar-custom  a{
+  font-style: 18px;
+  font-weight: 400;
+  /* line-height: 50; */
+  color: #CEAC92 !important;
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none !important;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+  background-color: #F7F2EE !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
