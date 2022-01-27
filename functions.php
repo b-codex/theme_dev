@@ -1,5 +1,34 @@
 <?php
-// add menu support
+// add widget support
+add_theme_support('widgets');
+
+// add widget
+function noobDev_add_sidebar(){
+    register_sidebar(
+        array(
+            'name' => __('Primary sidebar', 'NoobDev'),
+            'id' => 'Primary-sidebar', 
+            'before_widget'=> '<div>',
+            'after_widget'=> '<div>',
+            'before_title'=> '<h2 class= "widget-title">',
+            'after_title'=> '</h2>',
+
+        )
+        );
+        register_sidebar(
+            array(
+                'name' => __('Blog sidebar', 'NoobDev'),
+                'id' => 'Blog-sidebar', 
+                'before_widget'=> '<div>',
+                'after_widget'=> '<div>',
+                'before_title'=> '<h2 class= "widget-title">',
+                'after_title'=> '</h2>',
+    
+            )
+            );
+}
+// add action
+add_action('widget_init', 'noobDev_add_sidebar');
 
 
 // function for dynamic title tag support

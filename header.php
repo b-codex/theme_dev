@@ -37,7 +37,7 @@
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
             class="navbar-toggler-icon"></span>
           </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="nav_right collapse navbar-collapse" id="navbarResponsive">
           <?php 
             wp_nav_menu(
               array(
@@ -47,13 +47,7 @@
               )
             );
           ?>
-          <!-- <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resumĕ</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-          </ul> -->
+         
         </div>
       </div>
     </nav>
