@@ -34,3 +34,8 @@ get_footer();
 
 
 
+ //get sidebar
+ get_sidebar();
+//get the footer
+get_footer();
+?>

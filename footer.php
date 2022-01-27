@@ -4,11 +4,11 @@
 
 <!-- footer -->
 
-<footer class="site-footer text-center text-white" style="background-color: #f1f1f1;">
+<footer class="site-footer footIcon text-center text-white" >
   <!-- Grid container -->
-  <div class="container pt-4">
+  <div class="container footIcon pt-4">
     <!-- Section: Social media -->
-    <section class="mb-4">
+    <section class="mb-4 ">
       <!-- Facebook -->
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -67,7 +67,7 @@
   <!-- Grid container -->
 
   <!-- footer navbar -->
-  <nav class="site-footer">
+  <nav class="site-footer ">
       <?php 
         $args = array(
           'theme_location' => 'footer'
@@ -76,7 +76,7 @@
       <?php wp_nav_menu($args);?>
     </nav>
   <!-- Copyright -->
-  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="site-footer footIcon text-center text-dark p-3">
   <p?><?php bloginfo('name');?> Copyright &copy <?php echo date('Y');?> . All Rights Reserved.</p>
   </div>
   <!-- Copyright -->
