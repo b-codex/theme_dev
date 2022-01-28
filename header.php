@@ -20,7 +20,7 @@
 
   <!-- Navigation-->
   <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top my-5 ml-auto" id="mainNav">
       <div class="container">
         <?php 
          if(function_exists('the_custom_logo')){
@@ -37,23 +37,26 @@
             class="navbar-toggler-icon"></span>
           </button>
         <div class="nav_right collapse navbar-collapse" id="navbarResponsive">
-          <?php 
-            wp_nav_menu(
-              array(
-                'container' => '',
-                'theme_location' => 'primary',
-                'item_wrap' => '<ul id="" class="navbar-nav ml-auto">%3$s</ul>'
-              )
-            );
-          ?>
-         
+          <div class="menu-bar ml-auto">
+            <?php 
+              wp_nav_menu(
+                array(
+                  'container' => '<div class="ml-auto"> </div>',
+                  'theme_location' => 'primary',
+                  'item_wrap' => '<div class="menu12"><ul id="" class="">%3$s</ul></div>'
+                )
+              );
+            ?>
+           
+
+          </div>
         </div>
       </div>
     </nav>
   </header>
   <!-- Masthead-->
   <header class="masthead">
-    <div class="container h-100">
+    <div class="container h-25">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
           <h1 class="text-uppercase text-white font-weight-bold"><?php the_title();?></h1>
