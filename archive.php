@@ -1,4 +1,3 @@
-
 <?php get_header();?>
 <html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
