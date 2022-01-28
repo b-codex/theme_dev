@@ -4,7 +4,7 @@
 
 <!-- footer -->
 
-<footer class=" footIcon text-center text-white" >
+<footer class=" footIcon  text-center text-white" >
 
   <div class="container footIcon pt-4">
     
@@ -36,7 +36,7 @@
   <!-- Copyright -->
   <div class="copy-right my-5 p-3 text-center">
 
-    <div class=" footIcon  text-dark">
+    <div class=" footIcon   text-dark">
     
     <p?><?php bloginfo('name');?> Copyright &copy <?php echo date('Y');?> . All Rights Reserved.</p>
     </div>
