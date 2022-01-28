@@ -184,7 +184,6 @@ header.masthead h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -192,7 +191,6 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
-
 
 /* SKILLS SECTION */
 
@@ -627,13 +625,11 @@ svg.radial-progresscircle {
 }
 
 /* removed text decoration and color from anchor tags*/
-a  {
+a {
   text-decoration: none !important;
   color: #157575 !important;
-  
 }
 /* removed text decoration and color from anchor tags*/
-
 
 /*button css*/
 .btn-custom {
@@ -649,7 +645,6 @@ a  {
 }
 .btn-custom:hover {
   transform: scale(1.02);
-  transition: 0.35s ease-in-out;
 }
 /*button css*/
 
@@ -698,9 +693,29 @@ a  {
   text-transform: uppercase;
   background-color: #f7f2ee !important;
   justify-content: center !important;
+
   align-items: center !important;
 }
 
-.elementor-widget-wrap{
+.elementor-widget-wrap {
   text-align: start;
+}
+
+/* .page-404-image {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("/assets/img/404.jpg") !important;
+  /* background-image: url(https://github.com/b-codex/theme_dev/blob/master/assets/img/404.jpg) !important; 
+  
+  
+} 
+*/
+.page-404-image {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("/assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }

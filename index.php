@@ -1,4 +1,6 @@
 <?php get_header();?>
+<?php wp_link_pages();?>
+
 <html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,5 +52,6 @@ while (have_posts()) {
 <?php
 get_footer();
 ?>
+<?php wp_link_pages?>
 
 
