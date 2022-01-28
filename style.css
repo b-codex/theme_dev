@@ -1,5 +1,5 @@
 /*
- Theme Name: noobdevtheme
+ Theme Name: NoobDevTheme
  Version: 1.0
  Description: Personal Portfolio theme
  Tags: singlePage,Responsive
@@ -9,7 +9,7 @@ Tested up to: 5.4
 Requires PHP: 7.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
-Text Domain: noobdevtheme
+Text Domain: NoobDevTheme
 
  */
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
@@ -165,10 +165,10 @@ header.masthead {
       rgba(92, 77, 66, 0.8) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("../assets/img/bg-masthead.jpg");
+    url("assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -178,7 +178,7 @@ header.masthead h1 {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 50vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;

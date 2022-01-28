@@ -6,10 +6,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description"
-    content="This Is The Personal Website Of One NoobDev - Programmer, Developer & Gamer. Enjoy!!! Styles Used In This Website Are Licensed To Me.">
-  <meta name="author" content="Author - NoobDev">
+    content="This Is The Personal Website built by NoobDevTeam">
 
-  <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/img/logo.ico" type="image/x-icon">
 
   <?php 
   wp_head();
@@ -20,7 +19,7 @@
 
   <!-- Navigation-->
   <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-5" id="mainNav">
       <div class="container">
         <?php 
          if(function_exists('the_custom_logo')){
@@ -42,7 +41,7 @@
               array(
                 'container' => '',
                 'theme_location' => 'primary',
-                'item_wrap' => '<ul id="" class="navbar-nav ml-auto">%3$s</ul>'
+                'items_wrap' => '<ul id="" class="menu ml-auto">%3$s</ul>'
               )
             );
           ?>
@@ -52,8 +51,8 @@
     </nav>
   </header>
   <!-- Masthead-->
-  <header class="masthead">
-    <div class="container h-100">
+  <header class="masthead" >
+    <div class="container h-50">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
           <h1 class="text-uppercase text-white font-weight-bold"><?php the_title();?></h1>
