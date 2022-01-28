@@ -5,6 +5,14 @@ add_theme_support('widgets');
 // // add widget
 // function noobDev_add_sidebar(){
    
+        // register_sidebar(
+        //     array(
+        //         'name' => __('Blog sidebar', 'noobdevtheme'),
+        //         'id' => 'Blog-sidebar', 
+        //         'before_widget'=> '<div>',
+        //         'after_widget'=> '<div>',
+        //         'before_title'=> '<h2 class= "widget-title">',
+        //         'after_title'=> '</h2>',
 //         register_sidebar(
 //             array(
 //                 'name' => __('Blog sidebar', 'NoobDev'),
@@ -231,14 +239,13 @@ function noobDev_register_scripts()
 {
     /* Bootstrap core Js*/
     $version = wp_get_theme()->get('Version');
-    wp_enqueue_script('noobdev-script', get_template_directory_uri() . "/script.js", $version, $version, "all");
-    wp_enqueue_script('noobdev-jquery-popup', get_template_directory_uri() . "/assets/js/24cd095fb2.js", $version, "4.5.2", true);
-    wp_enqueue_script('noobdev-bootstrap-jquery', get_template_directory_uri() . "/assets/js/jquery-3.5.1.min.js", $version, "3.5.1", true);
-    wp_enqueue_script('noobdev-bootstrap-bundle', get_template_directory_uri() . "/assets/js/bootstrap.bundle.min.js", $version, "4.5.2", true);
-    wp_enqueue_script('noobdev-bootstrap-min', get_template_directory_uri() . "/assets/js/bootstrap.min.js", $version, "4.5.2", true);
-    wp_enqueue_script('noobdev-jquery-min', get_template_directory_uri() . "/assets/js/jquery.easing.min.js", $version, "1.4.1", true);
-    wp_enqueue_script('noobdev-jquery-popup', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js", $version, "1.1.0", true);
-    wp_enqueue_script('noobdev-jquery-popup', get_template_directory_uri() . "/assets/js/all.js", $version, "4.5.2", true);
+    wp_enqueue_script('noobdev-script', get_template_directory_uri() . "/script.js", array(), $version, "all");
+    wp_enqueue_script('noobdev-jquery-popup', get_template_directory_uri() . "/assets/js/24cd095fb2.js", array(), "4.5.2", true);
+    wp_enqueue_script('noobdev-bootstrap-jquery', get_template_directory_uri() . "/assets/js/jquery-3.5.1.min.js", array(), "3.5.1", true);
+    wp_enqueue_script('noobdev-bootstrap-bundle', get_template_directory_uri() . "/assets/js/bootstrap.bundle.min.js", array(), "4.5.2", true);
+    wp_enqueue_script('noobdev-bootstrap-min', get_template_directory_uri() . "/assets/js/bootstrap.min.js", array(), "4.5.2", true);
+    wp_enqueue_script('noobdev-jquery-min', get_template_directory_uri() . "/assets/js/jquery.easing.min.js", array(), "1.4.1", true);
+    wp_enqueue_script('noobdev-jquery-popup', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js", array(), "1.1.0", true);
 
 }
 // hook action

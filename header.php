@@ -16,8 +16,11 @@
   <?php 
   wp_head();
   ?>
-<body id="page-top">
-<?php wp_body_open()?>
+</head>
+
+<body id="page-top"<?php body_class( $class ); ?>>
+<?php wp_body_open(); ?>
+
   <!-- Navigation-->
   <header class="site-header bg-dark ">
     <nav class="navbar headIcon navbar-expand-lg fixed-top py-3" id="mainNav">
@@ -54,7 +57,7 @@
   
   <!-- Masthead-->
   <!-- <header class="masthead">
-    <div class="container h-100">
+    <div class="container h-50">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
           <h1 class="text-uppercase text-white font-weight-bold"></h1>

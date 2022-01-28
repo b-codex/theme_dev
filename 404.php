@@ -2,7 +2,7 @@
 
 <div class="container">
 
-<h4 class="mt-3"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?' ); ?></h4>
+<h4 class="mt-3"><?php _e( 'That\'s embarassing, isn&rsquo;t it?' ); ?></h4>
 
 <div class="row">
 <div class="col-9">
