@@ -21,11 +21,7 @@ get_header();
             }
             
           ?>
-          <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-	<div id="blog-sidebar" class="blog-sidebar widget-area" role="complementary">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-	</div><!-- #blog-sidebar -->
-<?php endif; ?>
+         
           
          
 
