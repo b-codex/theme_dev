@@ -4,7 +4,7 @@
         <div class="row g-3 align-items-center">
 
           <div class="col-auto">
-            <input type="text" id="search" class="form-control" value="<?php the_search_query(); ?>" aria-describedby="search text">
+            <input type="text" name="search" id="search" class="form-control" value="<?php the_search_query(); ?>" aria-describedby="search text">
           </div>
           
         </div>
