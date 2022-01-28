@@ -36,7 +36,7 @@
   <!-- Copyright -->
   <div class="copy-right my-5 p-3 text-center">
 
-    <div class=" footIcon  text-dark">
+    <div class=" footIcon   text-dark">
     
     <p?><?php bloginfo('name');?> Copyright &copy <?php echo date('Y');?> . All Rights Reserved.</p>
     </div>

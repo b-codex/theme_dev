@@ -243,6 +243,11 @@ svg.radial-progresscircle {
     font-size: 14px;
   }
 }
+/* footer sticky */
+.footIcon {
+  position: fixed;
+  height: 100vh;
+}
 
 /* RESUME SECTION */
 
