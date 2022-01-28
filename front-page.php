@@ -2,6 +2,7 @@
 <?php
 get_header();
 ?>
+<?php wp_head()?>
   
   <!-- About section-->
   <section class="page-section" id="about">
@@ -20,17 +21,19 @@ get_header();
             }
             
           ?>
-          <?php if ( is_active_sidebar( 'Blog sidebar' ) ) : ?>
+          <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 	<div id="blog-sidebar" class="blog-sidebar widget-area" role="complementary">
-		<?php dynamic_sidebar( 'Blog sidebar' ); ?>
+		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</div><!-- #blog-sidebar -->
 <?php endif; ?>
+          
          
 
         </div>
       </div>
     </div>
   </section>
+<?php wp_footer();?>
 
 
 
@@ -42,7 +45,7 @@ get_header();
   get_footer();
   
   ?>
- 
+ <?php wp_footer()?>
 </body>
 
 </html>
