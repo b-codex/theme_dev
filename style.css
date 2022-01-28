@@ -185,13 +185,6 @@ header.masthead h1 {
     padding-bottom: 0;
   }
 
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-
-  header.masthead h1 {
-    font-size: 3rem;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -200,12 +193,6 @@ header.masthead h1 {
   }
 }
 
-#about img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-}
 
 /* SKILLS SECTION */
 
@@ -328,7 +315,6 @@ svg.radial-progresscircle {
   width: 70px;
   height: 70px;
   margin-left: 0;
-  border: 1px solid #eee;
   border-radius: 100%;
   text-align: center;
   background: #fff;
@@ -467,13 +453,6 @@ svg.radial-progresscircle {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.image img {
-  width: 48%;
-  height: auto;
-  margin: 1rem 0.5rem;
-  transition: all 0.3s ease-in-out;
 }
 
 .image img:hover {
@@ -720,4 +699,8 @@ a  {
   background-color: #f7f2ee !important;
   justify-content: center !important;
   align-items: center !important;
+}
+
+.elementor-widget-wrap{
+  text-align: start;
 }
